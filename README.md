@@ -10,10 +10,10 @@ produced from that source by `./release-pack.sh vX.Y.Z`.
 
 ## Current release
 
-**[v1.1.0](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.1.0)** — SHA-1
-`87400c963d5c4d5a52fb9ab4e3669b3860721ba1`
+**[v1.2.0](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.2.0)** — SHA-1
+`faec4f358c54ed14838d3acb5e60dae8079f15fc`
 
-Adds the replay-phantom opacity shader: 26.2 clients see phantoms at 30% instead of the vanilla
+Adds the replay-phantom opacity shader: 26.2 clients see phantoms at 50% instead of the vanilla
 15%, via a pack-format-88-gated `core/entity.fsh` overlay. Other client versions are unaffected.
 
 The **[latest release](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/latest)** page always
