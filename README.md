@@ -10,13 +10,14 @@ produced from that source by `./release-pack.sh vX.Y.Z`.
 
 ## Current release
 
-**[v1.3.0](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.3.0)** — SHA-1
-`51f3127df55b0cc18a719f46213523602f86ffee`
+**[v1.4.0](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.4.0)** — SHA-1
+`4caec4978d220781e425766b4add6cb9bf8037d4`
 
-Adds 26.3 support for the replay-phantom opacity shader: a pack-format-97-gated
-`core/entity.fsh` overlay against the rewritten 26.3 shader (26.3 clients see phantoms at
-50% again, fixing the format-gate miss that had them back at vanilla 15%). The 26.2 overlay is
-unchanged.
+Adds the loot-pack opening art (crates, capsule, ring, beam, points coin, shards), the cosmetic
+carrier's transparent texture, six Halloween backpacks and five Halloween balloons, and a legacy
+`custom_model_data` entry (148) for the yellow balloon, so pre-1.21.4 clients draw it instead of
+the camera. Fixes the Jetpack rendering as a missing-model cube on 26.x clients. The new
+cosmetics show only once the server's FoxParkour config and jar use them.
 
 The **[latest release](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/latest)** page always
 carries the URL, the SHA-1 and a ready-to-paste `server.properties` block.
