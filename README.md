@@ -10,14 +10,14 @@ produced from that source by `./release-pack.sh vX.Y.Z`.
 
 ## Current release
 
-**[v1.4.0](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.4.0)** — SHA-1
-`4caec4978d220781e425766b4add6cb9bf8037d4`
+**[v1.4.1](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.4.1)** — SHA-1
+`f36b964c3b014c6e3b36e443d772395a7e772ef2`
 
-Adds the loot-pack opening art (crates, capsule, ring, beam, points coin, shards), the cosmetic
-carrier's transparent texture, six Halloween backpacks and five Halloween balloons, and a legacy
-`custom_model_data` entry (148) for the yellow balloon, so pre-1.21.4 clients draw it instead of
-the camera. Fixes the Jetpack rendering as a missing-model cube on 26.x clients. The new
-cosmetics show only once the server's FoxParkour config and jar use them.
+Fixes the black and blue balloons: their textures were swapped, so the Black Balloon was drawn
+blue and the Blue Balloon black. Otherwise identical to
+[v1.4.0](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.4.0), which added the
+loot-pack opening art, the cosmetic carrier's transparent texture, the Halloween backpacks and
+balloons, the yellow balloon's legacy `custom_model_data` entry (148), and the Jetpack fix.
 
 The **[latest release](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/latest)** page always
 carries the URL, the SHA-1 and a ready-to-paste `server.properties` block.
