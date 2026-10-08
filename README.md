@@ -10,14 +10,16 @@ produced from that source by `./release-pack.sh vX.Y.Z`.
 
 ## Current release
 
-**[v1.4.1](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.4.1)** — SHA-1
-`f36b964c3b014c6e3b36e443d772395a7e772ef2`
+**[v1.5.0](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.5.0)** — SHA-1
+`18ff57bccc3c49f36e53c134e2354d7bb308ccba`
 
-Fixes the black and blue balloons: their textures were swapped, so the Black Balloon was drawn
-blue and the Blue Balloon black. Otherwise identical to
-[v1.4.0](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.4.0), which added the
-loot-pack opening art, the cosmetic carrier's transparent texture, the Halloween backpacks and
-balloons, the yellow balloon's legacy `custom_model_data` entry (148), and the Jetpack fix.
+Seats the six original backpacks on the wearer's back (they sat from the shoulders to above the head),
+puts the planet balloons' string knot on the stand's axis, and centres the six floating balloons
+(clouds, crescent moon, octopus, pufferfish) over the leash's end. Adds the 40 other backpacks from
+the Foxcraft pack (`custom_model_data` 184–223); they show once the server's `cosmetics.yml` lists them.
+Serve it with the five planet balloons at `offsets.forward: 0.0` in FoxParkour's `cosmetics.yml`
+(FoxParkour 0.5 before this pack), ideally with FoxParkour
+[#1441](https://github.com/mcfoxcraft/FoxParkour/pull/1441).
 
 The **[latest release](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/latest)** page always
 carries the URL, the SHA-1 and a ready-to-paste `server.properties` block.
