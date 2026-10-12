@@ -10,23 +10,12 @@ produced from that source by `./release-pack.sh vX.Y.Z`.
 
 ## Current release
 
-**[v1.5.0](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.5.0)** — SHA-1
-`18ff57bccc3c49f36e53c134e2354d7bb308ccba`
+**[v1.6.0](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.6.0)** — SHA-1
+`4f2384802bc84f6d15aad162b3f9323ced08ea33`
 
-Seats the six original backpacks on the wearer's back (they sat from the shoulders to above the head),
-puts the planet balloons' string knot on the stand's axis, and centres the six floating balloons
-(clouds, crescent moon, octopus, pufferfish) over the leash's end. Adds the 40 other backpacks from
-the Foxcraft pack (`custom_model_data` 184–223); they show once the server's `cosmetics.yml` lists them.
-Serve it with the five planet balloons at `offsets.forward: 0.0` in FoxParkour's `cosmetics.yml`
-(FoxParkour 0.5 before this pack), ideally with FoxParkour
-[#1441](https://github.com/mcfoxcraft/FoxParkour/pull/1441).
-
-The **[latest release](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/latest)** page always
-carries the URL, the SHA-1 and a ready-to-paste `server.properties` block.
-
-Pin the tag rather than using `/latest` in `server.properties`: clients cache by hash, so the URL
-and `resource-pack-sha1` must move together. A stale hash makes every client keep its cached copy
-of the previous pack, which looks exactly like the update doing nothing.
+Adds the network's 187 chat emoji as font glyphs (U+E200–E2BA, the same codepoints as the Foxcraft pack),
+and the notification panel font FoxParkour draws its toasts with (`toasts.style: panel`). `pack.mcmeta`
+now declares `min_format`/`max_format`, so 26.x clients accept the pack. Cosmetics are unchanged from v1.5.0.
 
 ## Serving it
 
