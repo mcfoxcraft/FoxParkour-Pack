@@ -10,12 +10,12 @@ produced from that source by `./release-pack.sh vX.Y.Z`.
 
 ## Current release
 
-**[v1.6.0](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.6.0)** — SHA-1
-`4f2384802bc84f6d15aad162b3f9323ced08ea33`
+**[v1.6.1](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.6.1)** — SHA-1
+`e5db102bd4ba9f959d05a734f87d481bf617d6aa`
 
-Adds the network's 187 chat emoji as font glyphs (U+E200–E2BA, the same codepoints as the Foxcraft pack),
-and the notification panel font FoxParkour draws its toasts with (`toasts.style: panel`). `pack.mcmeta`
-now declares `min_format`/`max_format`, so 26.x clients accept the pack. Cosmetics are unchanged from v1.5.0.
+Seats the five Halloween balloons (bat, creature, devil, ghost, pumpkin) so their lead ends at the string's
+knot; FoxParkour's `cosmetics.yml` gives them `offsets: forward 0.0, up -0.5` with this pack. Also carries the
+collectible player card art (unused while cards are off). Otherwise unchanged from v1.6.0.
 
 ## Serving it
 
