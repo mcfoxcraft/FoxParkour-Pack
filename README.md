@@ -10,12 +10,13 @@ produced from that source by `./release-pack.sh vX.Y.Z`.
 
 ## Current release
 
-**[v1.6.1](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.6.1)** — SHA-1
-`e5db102bd4ba9f959d05a734f87d481bf617d6aa`
+**[v1.7.0](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.7.0)** — SHA-1
+`1f3ebd84556d06dd3e48ddf277e0c6030148c679`
 
-Seats the five Halloween balloons (bat, creature, devil, ghost, pumpkin) so their lead ends at the string's
-knot; FoxParkour's `cosmetics.yml` gives them `offsets: forward 0.0, up -0.5` with this pack. Also carries the
-collectible player card art (unused while cards are off). Otherwise unchanged from v1.6.0.
+Adds FoxGear's Vladimir set (`foxgear:` weapons and the wings' equipment asset, for FoxParkour's FoxGear
+cosmetics), ten animal balloons, the sulfur set, the bard and assassin helmets and ten Foxcraft backpacks
+(custom_model_data 228-234 and 238-270; Bedrock pack 1.5.0). They show once `cosmetics.yml` lists them.
+Otherwise unchanged from v1.6.1.
 
 ## Serving it
 
