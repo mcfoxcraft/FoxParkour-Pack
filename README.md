@@ -10,13 +10,12 @@ produced from that source by `./release-pack.sh vX.Y.Z`.
 
 ## Current release
 
-**[v1.7.0](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.7.0)** — SHA-1
-`1f3ebd84556d06dd3e48ddf277e0c6030148c679`
+**[v1.7.1](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.7.1)** — SHA-1
+`c29407445489f4e55aa74e6bff820470618dda2f`
 
-Adds FoxGear's Vladimir set (`foxgear:` weapons and the wings' equipment asset, for FoxParkour's FoxGear
-cosmetics), ten animal balloons, the sulfur set, the bard and assassin helmets and ten Foxcraft backpacks
-(custom_model_data 228-234 and 238-270; Bedrock pack 1.5.0). They show once `cosmetics.yml` lists them.
-Otherwise unchanged from v1.6.1.
+Adds the bard and assassin chestplates, leggings and boots (FoxGear's `foxgear:<set>/<tier>_<piece>` models
+and their `foxgear:<set>_<tier>` equipment assets) for FoxParkour's body cosmetics. Bedrock is unchanged
+(pack 1.5.0; armour shows as its material there). Otherwise unchanged from v1.7.0.
 
 ## Serving it
 
