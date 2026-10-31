@@ -10,12 +10,13 @@ produced from that source by `./release-pack.sh vX.Y.Z`.
 
 ## Current release
 
-**[v1.7.2](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.7.2)** — SHA-1
-`4759bc04d02baffc18b95fb2f87adf2f8e51d9b5`
+**[v1.7.3](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.7.3)** — SHA-1
+`f8f65f67a0f518e6aef42b62b4629e46eb591ff3`
 
-Adds the fail scream sound `foxparkour:fail.scream` (a CC0 Wilhelm-style scream) for FoxParkour's fail scream.
-Also has v1.7.1's bard and assassin chestplates, leggings and boots. Bedrock is unchanged (pack 1.5.0; Bedrock
-players hear the vanilla fallback sound). Otherwise unchanged from v1.7.1.
+Collectible cards now draw on Java clients before 26.1 as the card, badge and foil with the window's question mark,
+without the player's head, instead of as the missing model (1.21.4, 1.21.5) or with the head off the card (1.21.6 to
+1.21.11). Clients from 1.21.11 on no longer log a "Duplicate sprite" warning for every cosmetic: each sprite is
+declared once there. Bedrock is unchanged. Otherwise unchanged from v1.7.2.
 
 ## Serving it
 
