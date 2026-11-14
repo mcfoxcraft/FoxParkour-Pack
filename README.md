@@ -10,12 +10,12 @@ produced from that source by `./release-pack.sh vX.Y.Z`.
 
 ## Current release
 
-**[v1.7.4](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.7.4)** — SHA-1
-`1a947d3648cf3a20ebbdfa12606d1e2844ec1ba8`
+**[v1.8.0](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.8.0)** — SHA-1
+`6b1efdd575b0173b0db110e2de1e25b89d0b5dd2`
 
-Java clients on 1.21.2 and 1.21.3 now draw the cosmetics, menu icons, pack crates and cards instead of the missing
-model. Java clients before 1.21.2 see the Golden Helm and Leather Cap hats as helmets on their own head instead of a
-sheet of paper. Bedrock is unchanged. Otherwise unchanged from v1.7.3.
+Adds the art for FoxParkour's menu theme: Parkour Masters backgrounds for the chest menus, 230 button icons and a
+tooltip style. Nothing draws them until FoxParkour turns its menu theme on. Bedrock is unchanged here (its menu icons
+ship in the Bedrock pack on the proxy). Otherwise unchanged from v1.7.4.
 
 ## Serving it
 
