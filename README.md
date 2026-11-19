@@ -10,11 +10,13 @@ produced from that source by `./release-pack.sh vX.Y.Z`.
 
 ## Current release
 
-**[v1.8.1](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.8.1)** — SHA-1
-`0d1dab601be4e42fb7c5884ac9d48ead392dfbd2`
+**[v1.9.0](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.9.0)** — SHA-1
+`a9c0102617fca806d449ad30163cfecd9e7a56df`
 
-Every balloon cosmetic now hangs with its knot on the lead (30 balloon models seated). Needs the matching
-FoxParkour balloon offsets in the server's cosmetics.yml, applied at the same restart. Otherwise unchanged from v1.8.0.
+The menu theme's button icons are redrawn flat (no slab behind the pictures, centred, clearer keys and states), and
+the notification panel gets its headline-only pieces and a smaller headline font (`foxparkour:toast_small`), which
+FoxParkour builds with the small-headline toasts need. Every cosmetic model now names a particle texture (no more
+"Missing texture references" warnings on 26.3). Otherwise unchanged from v1.8.1.
 
 ## Serving it
 
