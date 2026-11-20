@@ -10,13 +10,11 @@ produced from that source by `./release-pack.sh vX.Y.Z`.
 
 ## Current release
 
-**[v1.9.0](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.9.0)** — SHA-1
-`a9c0102617fca806d449ad30163cfecd9e7a56df`
+**[v1.9.1](https://github.com/mcfoxcraft/FoxParkour-Pack/releases/tag/v1.9.1)** — SHA-1
+`6ea738baf69bddfd25fb6242950d50987c7a0f97`
 
-The menu theme's button icons are redrawn flat (no slab behind the pictures, centred, clearer keys and states), and
-the notification panel gets its headline-only pieces and a smaller headline font (`foxparkour:toast_small`), which
-FoxParkour builds with the small-headline toasts need. Every cosmetic model now names a particle texture (no more
-"Missing texture references" warnings on 26.3). Otherwise unchanged from v1.8.1.
+The Wizard Staff cosmetic draws whole again: its 4-frame texture gets the `.png.mcmeta` it never had, so the runes
+animate instead of the staff showing as loose pieces (forum report 46827). Otherwise unchanged from v1.9.0.
 
 ## Serving it
 
